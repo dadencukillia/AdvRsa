@@ -1,0 +1,33 @@
+* {
+    cursor: default;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img, picture {
+    pointer-events: none;
+}
+
+textarea {
+    cursor: text;
+    resize: none;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: white;
+    font-family: "BricolageGrotesque", sans-serif;
+}
+
+@font-face {
+    font-family: "BricolageGrotesque";
+    src: local("BricolageGrotesque"),
+    url("assets/fonts/BricolageGrotesque.ttf") format("truetype");
+}
